@@ -1,0 +1,16 @@
+PODS:
+  - JBFancy (0.1.0)
+
+DEPENDENCIES:
+  - JBFancy (from `../`)
+
+EXTERNAL SOURCES:
+  JBFancy:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  JBFancy: 2408e7567cb4fd0b04a6edee696cbb6936110a31
+
+PODFILE CHECKSUM: 502d22f9a63e3677a35be7c1e00e76362ea339ce
+
+COCOAPODS: 1.10.1
