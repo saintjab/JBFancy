@@ -1,6 +1,6 @@
 # JBFancy
 
-[![CI Status](https://img.shields.io/travis/85347023/JBFancy.svg?style=flat)](https://travis-ci.org/85347023/JBFancy)
+[![CI Status](https://img.shields.io/travis/saintjab/JBFancy.svg?style=flat)](https://travis-ci.org/saintjab/JBFancy)
 [![Version](https://img.shields.io/cocoapods/v/JBFancy.svg?style=flat)](https://cocoapods.org/pods/JBFancy)
 [![License](https://img.shields.io/cocoapods/l/JBFancy.svg?style=flat)](https://cocoapods.org/pods/JBFancy)
 [![Platform](https://img.shields.io/cocoapods/p/JBFancy.svg?style=flat)](https://cocoapods.org/pods/JBFancy)
@@ -22,7 +22,7 @@ pod 'JBFancy'
 
 ## Author
 
-85347023, jonas.boateng@bbc.co.uk
+saintjab, jaboateng@ymail.com
 
 ## License
 
