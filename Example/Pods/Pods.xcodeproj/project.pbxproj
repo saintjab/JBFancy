@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		45A66E08D8BC895A6F296C16A746A3A7 /* Pods-JBFancy_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C3C46ECEA8F7F221E593529DBE8F9872 /* Pods-JBFancy_Example-dummy.m */; };
-		72272FC927AD774F00244C68 /* FancyLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72272FC827AD774F00244C68 /* FancyLabel.swift */; };
+		72272FCB27AD789200244C68 /* FancyLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72272FCA27AD789100244C68 /* FancyLabel.swift */; };
 		9DBB3823D2F1691204E2D4475FAEF6FA /* Pods-JBFancy_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5701E97C92EBDAD7DB7118E0F37A98C7 /* Pods-JBFancy_Tests-dummy.m */; };
 		A25271C98866D8C4313AF3F28A5D81C1 /* JBFancy-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B3E949B6CD04182EB2E1F3402C191270 /* JBFancy-dummy.m */; };
 		A5C0B7EF598277CBBE3D1B391BCAB569 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
@@ -49,7 +49,7 @@
 		5701E97C92EBDAD7DB7118E0F37A98C7 /* Pods-JBFancy_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-JBFancy_Tests-dummy.m"; sourceTree = "<group>"; };
 		578BB7C820A45D09B2DB0DDB4384B9DB /* JBFancy.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = JBFancy.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6C861E8A29B89B928DC17A352F573AD9 /* Pods-JBFancy_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JBFancy_Example-frameworks.sh"; sourceTree = "<group>"; };
-		72272FC827AD774F00244C68 /* FancyLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FancyLabel.swift; sourceTree = "<group>"; };
+		72272FCA27AD789100244C68 /* FancyLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FancyLabel.swift; path = JBFancy/Classes/FancyLabel.swift; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		8DAB709D6E8F58B336742CB53EA797F4 /* JBFancy.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JBFancy.release.xcconfig; sourceTree = "<group>"; };
 		910D2B63B624275158B608AC7DEC03CA /* Pods-JBFancy_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-JBFancy_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
@@ -113,10 +113,10 @@
 		790C38C8A701CCE318CA332566C86169 /* JBFancy */ = {
 			isa = PBXGroup;
 			children = (
+				72272FCA27AD789100244C68 /* FancyLabel.swift */,
 				DB49175F542AC0641BC4CF84B4D30EEF /* ReplaceMe.swift */,
 				91FB6D8D0A1291FD92DCDAB7952A8525 /* Pod */,
 				A455FEDA92A3AEF2D45DFAD5598E2673 /* Support Files */,
-				72272FC827AD774F00244C68 /* FancyLabel.swift */,
 			);
 			name = JBFancy;
 			path = ../..;
@@ -388,7 +388,7 @@
 			files = (
 				A25271C98866D8C4313AF3F28A5D81C1 /* JBFancy-dummy.m in Sources */,
 				F950612EDC4E8A8A417352F63FA0072C /* ReplaceMe.swift in Sources */,
-				72272FC927AD774F00244C68 /* FancyLabel.swift in Sources */,
+				72272FCB27AD789200244C68 /* FancyLabel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
