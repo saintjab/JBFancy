@@ -2,14 +2,17 @@
 //  ViewController.swift
 //  JBFancy
 //
-//  Created by 85347023 on 02/04/2022.
-//  Copyright (c) 2022 85347023. All rights reserved.
+//  Created by Jonas Boateng on 02/04/2022.
+//  Copyright (c) 2022 saintjab. All rights reserved.
 //
 
 import UIKit
+import JBFancy
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var fancyLabel: FancyLabel!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.

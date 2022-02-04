@@ -7,17 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0FA01AAA1A8E96283961CF0E57A8EB51 /* FancyLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 067529792F92A25D4E4E2E5B63F34595 /* FancyLabel.swift */; };
 		45A66E08D8BC895A6F296C16A746A3A7 /* Pods-JBFancy_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C3C46ECEA8F7F221E593529DBE8F9872 /* Pods-JBFancy_Example-dummy.m */; };
-		72272FCB27AD789200244C68 /* FancyLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72272FCA27AD789100244C68 /* FancyLabel.swift */; };
 		9DBB3823D2F1691204E2D4475FAEF6FA /* Pods-JBFancy_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5701E97C92EBDAD7DB7118E0F37A98C7 /* Pods-JBFancy_Tests-dummy.m */; };
-		A25271C98866D8C4313AF3F28A5D81C1 /* JBFancy-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B3E949B6CD04182EB2E1F3402C191270 /* JBFancy-dummy.m */; };
 		A5C0B7EF598277CBBE3D1B391BCAB569 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		A7A2103348D2A8BCC2C5FED8027DE878 /* Pods-JBFancy_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E0BBE73AD2EBDF35CB478EB16928B5DA /* Pods-JBFancy_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C65F2473AA4B56C7FE4295F7275045F5 /* JBFancy-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F54D43DF13CDE14AD57FC3806D155B8 /* JBFancy-dummy.m */; };
 		D8B685DEC95F18AF728C64D14BB87EFD /* Pods-JBFancy_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3A4B97D892AF1919FB8ADC1C5C883866 /* Pods-JBFancy_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		DC555FCFEE822C23F8471F83121F3916 /* JBFancy-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C86F8DB375CF5A1D281D1C4AB6765DE0 /* JBFancy-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DC555FCFEE822C23F8471F83121F3916 /* JBFancy-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 88EBF90CB09846CB8E1491B3A8C8B1CB /* JBFancy-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E1BBBA0FD7B8F98C8CF6C60D514B9C1D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		F0786F99DF5CBA8A8BF56A7ADDD46F8A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		F950612EDC4E8A8A417352F63FA0072C /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB49175F542AC0641BC4CF84B4D30EEF /* ReplaceMe.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,38 +37,37 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		054668664A1EC6273AEEB5839A08ABB5 /* JBFancy.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = JBFancy.modulemap; sourceTree = "<group>"; };
 		05B41597693D9DD4D464CBF0958397FB /* Pods-JBFancy_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JBFancy_Example.release.xcconfig"; sourceTree = "<group>"; };
+		067529792F92A25D4E4E2E5B63F34595 /* FancyLabel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FancyLabel.swift; path = JBFancy/Classes/FancyLabel.swift; sourceTree = "<group>"; };
 		147FE5CBE1755BC1F00D6B8859D7F5AC /* Pods-JBFancy_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-JBFancy_Tests.modulemap"; sourceTree = "<group>"; };
 		17CC070867C2730F3237A13FAFB161F5 /* Pods-JBFancy_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JBFancy_Example-Info.plist"; sourceTree = "<group>"; };
-		1EB3254113D95FA8C75CDA9C139ED630 /* JBFancy-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JBFancy-prefix.pch"; sourceTree = "<group>"; };
 		3A4B97D892AF1919FB8ADC1C5C883866 /* Pods-JBFancy_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-JBFancy_Example-umbrella.h"; sourceTree = "<group>"; };
+		3C691445D1C725F458939B9D5DBE5789 /* JBFancy.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = JBFancy.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		3DC14311B8CE2913B1A2D619E78562D4 /* Pods-JBFancy_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JBFancy_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		3EB44A34C74388784F42732DEFAC6BDE /* Pods-JBFancy_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JBFancy_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		5701E97C92EBDAD7DB7118E0F37A98C7 /* Pods-JBFancy_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-JBFancy_Tests-dummy.m"; sourceTree = "<group>"; };
-		578BB7C820A45D09B2DB0DDB4384B9DB /* JBFancy.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = JBFancy.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		578BB7C820A45D09B2DB0DDB4384B9DB /* JBFancy.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = JBFancy.framework; path = JBFancy.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6C861E8A29B89B928DC17A352F573AD9 /* Pods-JBFancy_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JBFancy_Example-frameworks.sh"; sourceTree = "<group>"; };
-		72272FCA27AD789100244C68 /* FancyLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FancyLabel.swift; path = JBFancy/Classes/FancyLabel.swift; sourceTree = "<group>"; };
+		6E175CEA683F053458122E425CCCB314 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		6F54D43DF13CDE14AD57FC3806D155B8 /* JBFancy-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "JBFancy-dummy.m"; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		8DAB709D6E8F58B336742CB53EA797F4 /* JBFancy.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JBFancy.release.xcconfig; sourceTree = "<group>"; };
+		7A6C300EBA17932D27E7B04EB013BFED /* JBFancy-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JBFancy-prefix.pch"; sourceTree = "<group>"; };
+		7C0668B11B10DA849690825B6AF4D4C6 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		82E5DA32151896B2C8E43F57A2B681CD /* JBFancy.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JBFancy.release.xcconfig; sourceTree = "<group>"; };
+		88EBF90CB09846CB8E1491B3A8C8B1CB /* JBFancy-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JBFancy-umbrella.h"; sourceTree = "<group>"; };
+		8AFC96B9FC3144D1B51623DEB49E824A /* JBFancy.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JBFancy.debug.xcconfig; sourceTree = "<group>"; };
 		910D2B63B624275158B608AC7DEC03CA /* Pods-JBFancy_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-JBFancy_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		AC255D4597FFB8DE454B1D0C57ED4F65 /* JBFancy.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = JBFancy.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		B3E949B6CD04182EB2E1F3402C191270 /* JBFancy-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "JBFancy-dummy.m"; sourceTree = "<group>"; };
+		97B6631D53FCFAF75DB6834B0D438424 /* JBFancy.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = JBFancy.modulemap; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		B6285EE99F14B26FF80D01D6EA019F49 /* Pods-JBFancy_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JBFancy_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		C0071F2061AAF6567DD455BDA93C9633 /* Pods_JBFancy_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JBFancy_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		C286EB19C914C44FF1E6E42734D4FE49 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		C0071F2061AAF6567DD455BDA93C9633 /* Pods_JBFancy_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_JBFancy_Example.framework; path = "Pods-JBFancy_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C3C46ECEA8F7F221E593529DBE8F9872 /* Pods-JBFancy_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-JBFancy_Example-dummy.m"; sourceTree = "<group>"; };
-		C6E2318463DD2E66D3A78492E4FD30E5 /* JBFancy.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JBFancy.debug.xcconfig; sourceTree = "<group>"; };
 		C6F4F67D742ED5EF5FAF9BC95C850B65 /* Pods-JBFancy_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JBFancy_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		C86F8DB375CF5A1D281D1C4AB6765DE0 /* JBFancy-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JBFancy-umbrella.h"; sourceTree = "<group>"; };
 		D7EEDE5094A4A9671CC01FC053EA6BAB /* Pods-JBFancy_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JBFancy_Tests-Info.plist"; sourceTree = "<group>"; };
-		DB49175F542AC0641BC4CF84B4D30EEF /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = JBFancy/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
+		DC44D42E9D8518A1DC6A83D3AB8D5E2D /* JBFancy-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "JBFancy-Info.plist"; sourceTree = "<group>"; };
 		E0BBE73AD2EBDF35CB478EB16928B5DA /* Pods-JBFancy_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-JBFancy_Tests-umbrella.h"; sourceTree = "<group>"; };
-		E23076B56B978EFF0735AE0A4EA2B32B /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		E557743725DB367ACB1D72EEF841CC32 /* Pods-JBFancy_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-JBFancy_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		E696A80854CB32FCA4183C2AA999C9C0 /* Pods_JBFancy_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JBFancy_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		E7AFC7CA6ABB16C167AC66BF04E9A683 /* JBFancy-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "JBFancy-Info.plist"; sourceTree = "<group>"; };
+		E696A80854CB32FCA4183C2AA999C9C0 /* Pods_JBFancy_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_JBFancy_Tests.framework; path = "Pods-JBFancy_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EEFC24AA459E82A87DB25F6A8C346999 /* Pods-JBFancy_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JBFancy_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		F51A4DEBECFE0945871581D41B86ADEE /* Pods-JBFancy_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-JBFancy_Example.modulemap"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -110,49 +108,37 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		790C38C8A701CCE318CA332566C86169 /* JBFancy */ = {
+		965CC8FE74A9C275CED055A0CE61F25C /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				72272FCA27AD789100244C68 /* FancyLabel.swift */,
-				DB49175F542AC0641BC4CF84B4D30EEF /* ReplaceMe.swift */,
-				91FB6D8D0A1291FD92DCDAB7952A8525 /* Pod */,
-				A455FEDA92A3AEF2D45DFAD5598E2673 /* Support Files */,
-			);
-			name = JBFancy;
-			path = ../..;
-			sourceTree = "<group>";
-		};
-		91FB6D8D0A1291FD92DCDAB7952A8525 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				AC255D4597FFB8DE454B1D0C57ED4F65 /* JBFancy.podspec */,
-				E23076B56B978EFF0735AE0A4EA2B32B /* LICENSE */,
-				C286EB19C914C44FF1E6E42734D4FE49 /* README.md */,
+				3C691445D1C725F458939B9D5DBE5789 /* JBFancy.podspec */,
+				6E175CEA683F053458122E425CCCB314 /* LICENSE */,
+				7C0668B11B10DA849690825B6AF4D4C6 /* README.md */,
 			);
 			name = Pod;
+			sourceTree = "<group>";
+		};
+		9C88513C0EB7EA9304EB2E73345D8155 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				97B6631D53FCFAF75DB6834B0D438424 /* JBFancy.modulemap */,
+				6F54D43DF13CDE14AD57FC3806D155B8 /* JBFancy-dummy.m */,
+				DC44D42E9D8518A1DC6A83D3AB8D5E2D /* JBFancy-Info.plist */,
+				7A6C300EBA17932D27E7B04EB013BFED /* JBFancy-prefix.pch */,
+				88EBF90CB09846CB8E1491B3A8C8B1CB /* JBFancy-umbrella.h */,
+				8AFC96B9FC3144D1B51623DEB49E824A /* JBFancy.debug.xcconfig */,
+				82E5DA32151896B2C8E43F57A2B681CD /* JBFancy.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/JBFancy";
 			sourceTree = "<group>";
 		};
 		9C92A4C5908487C6A8E67E6803A77A2E /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				790C38C8A701CCE318CA332566C86169 /* JBFancy */,
+				F2F043AF2FE95564E47FBCFD24061B71 /* JBFancy */,
 			);
 			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		A455FEDA92A3AEF2D45DFAD5598E2673 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				054668664A1EC6273AEEB5839A08ABB5 /* JBFancy.modulemap */,
-				B3E949B6CD04182EB2E1F3402C191270 /* JBFancy-dummy.m */,
-				E7AFC7CA6ABB16C167AC66BF04E9A683 /* JBFancy-Info.plist */,
-				1EB3254113D95FA8C75CDA9C139ED630 /* JBFancy-prefix.pch */,
-				C86F8DB375CF5A1D281D1C4AB6765DE0 /* JBFancy-umbrella.h */,
-				C6E2318463DD2E66D3A78492E4FD30E5 /* JBFancy.debug.xcconfig */,
-				8DAB709D6E8F58B336742CB53EA797F4 /* JBFancy.release.xcconfig */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/JBFancy";
 			sourceTree = "<group>";
 		};
 		AFD6A6F3CC241B734060327FD1B95CCC /* Pods-JBFancy_Example */ = {
@@ -215,6 +201,17 @@
 				E696A80854CB32FCA4183C2AA999C9C0 /* Pods_JBFancy_Tests.framework */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		F2F043AF2FE95564E47FBCFD24061B71 /* JBFancy */ = {
+			isa = PBXGroup;
+			children = (
+				067529792F92A25D4E4E2E5B63F34595 /* FancyLabel.swift */,
+				965CC8FE74A9C275CED055A0CE61F25C /* Pod */,
+				9C88513C0EB7EA9304EB2E73345D8155 /* Support Files */,
+			);
+			name = JBFancy;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 		F6BAC70F37DD3C717C78C64330BB709A /* Targets Support Files */ = {
@@ -280,7 +277,7 @@
 			buildConfigurationList = 9D7C53C00FAB86C9716A4D55C5AD5F28 /* Build configuration list for PBXNativeTarget "JBFancy" */;
 			buildPhases = (
 				BB602B3DF4183A20A45E4F9C01E33295 /* Headers */,
-				FBF47FEEC5ADE7236F84249488BFB012 /* Sources */,
+				FA141595198922FA6FF14BFE741051C8 /* Sources */,
 				20187F2FCA0729C0E73808204676B40B /* Frameworks */,
 				8D01AB893DF849AC78113665380D6B12 /* Resources */,
 			);
@@ -382,13 +379,12 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		FBF47FEEC5ADE7236F84249488BFB012 /* Sources */ = {
+		FA141595198922FA6FF14BFE741051C8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A25271C98866D8C4313AF3F28A5D81C1 /* JBFancy-dummy.m in Sources */,
-				F950612EDC4E8A8A417352F63FA0072C /* ReplaceMe.swift in Sources */,
-				72272FCB27AD789200244C68 /* FancyLabel.swift in Sources */,
+				0FA01AAA1A8E96283961CF0E57A8EB51 /* FancyLabel.swift in Sources */,
+				C65F2473AA4B56C7FE4295F7275045F5 /* JBFancy-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -410,6 +406,67 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		01BF64CB0AA9A9A682E0E8913308DE94 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 82E5DA32151896B2C8E43F57A2B681CD /* JBFancy.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/JBFancy/JBFancy-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/JBFancy/JBFancy-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/JBFancy/JBFancy.modulemap";
+				PRODUCT_MODULE_NAME = JBFancy;
+				PRODUCT_NAME = JBFancy;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		030BC755D3A7233EE70AF35B5D63032A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8AFC96B9FC3144D1B51623DEB49E824A /* JBFancy.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/JBFancy/JBFancy-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/JBFancy/JBFancy-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/JBFancy/JBFancy.modulemap";
+				PRODUCT_MODULE_NAME = JBFancy;
+				PRODUCT_NAME = JBFancy;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 		042BBABF5697879026ACB7270DF4B6C6 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = C6F4F67D742ED5EF5FAF9BC95C850B65 /* Pods-JBFancy_Tests.debug.xcconfig */;
@@ -574,67 +631,6 @@
 			};
 			name = Release;
 		};
-		454C0A7739221B95922335DBF707455E /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8DAB709D6E8F58B336742CB53EA797F4 /* JBFancy.release.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/JBFancy/JBFancy-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/JBFancy/JBFancy-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/JBFancy/JBFancy.modulemap";
-				PRODUCT_MODULE_NAME = JBFancy;
-				PRODUCT_NAME = JBFancy;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		B715889402B380A2A374E0F22FB87E7B /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = C6E2318463DD2E66D3A78492E4FD30E5 /* JBFancy.debug.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/JBFancy/JBFancy-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/JBFancy/JBFancy-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/JBFancy/JBFancy.modulemap";
-				PRODUCT_MODULE_NAME = JBFancy;
-				PRODUCT_NAME = JBFancy;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 		CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -690,7 +686,8 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
@@ -752,8 +749,8 @@
 		9D7C53C00FAB86C9716A4D55C5AD5F28 /* Build configuration list for PBXNativeTarget "JBFancy" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B715889402B380A2A374E0F22FB87E7B /* Debug */,
-				454C0A7739221B95922335DBF707455E /* Release */,
+				030BC755D3A7233EE70AF35B5D63032A /* Debug */,
+				01BF64CB0AA9A9A682E0E8913308DE94 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

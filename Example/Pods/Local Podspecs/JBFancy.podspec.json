@@ -1,22 +1,24 @@
 {
   "name": "JBFancy",
   "version": "0.1.0",
-  "summary": "A short description of JBFancy.",
-  "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/85347023/JBFancy",
+  "summary": "A simple and fancy UI Components for blinking and rotating effect",
+  "description": "A simple and fancy UILabel for blinking and rotating effect. Simply add it and call a method you fancy (pun intended)",
+  "homepage": "https://github.com/saintjab/JBFancy",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
   },
   "authors": {
-    "85347023": "jonas.boateng@bbc.co.uk"
+    "saintjab": "jaboateng@ymail.com"
   },
   "source": {
-    "git": "https://github.com/85347023/JBFancy.git",
+    "git": "https://github.com/saintjab/JBFancy.git",
     "tag": "0.1.0"
   },
   "platforms": {
     "ios": "9.0"
   },
-  "source_files": "JBFancy/Classes/**/*"
+  "swift_versions": "5.0",
+  "source_files": "JBFancy/Classes/**/*",
+  "swift_version": "5.0"
 }
