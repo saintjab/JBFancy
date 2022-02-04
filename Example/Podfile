@@ -1,9 +1,10 @@
+source 'https://github.com/CocoaPods/Specs.git'
 use_frameworks!
 
 platform :ios, '9.0'
 
 target 'JBFancy_Example' do
-  pod 'JBFancy', :path => '../'
+  pod 'JBFancy', :git => 'https://github.com/saintjab/JBFancy'
 
   target 'JBFancy_Tests' do
     inherit! :search_paths

@@ -2,15 +2,20 @@ PODS:
   - JBFancy (0.1.0)
 
 DEPENDENCIES:
-  - JBFancy (from `../`)
+  - JBFancy (from `https://github.com/saintjab/JBFancy`)
 
 EXTERNAL SOURCES:
   JBFancy:
-    :path: "../"
+    :git: https://github.com/saintjab/JBFancy
+
+CHECKOUT OPTIONS:
+  JBFancy:
+    :commit: bb1df9047223fb45d1a79e215b71f57b74afba7f
+    :git: https://github.com/saintjab/JBFancy
 
 SPEC CHECKSUMS:
   JBFancy: b78c7684db21ed5a380e402c76ae3fc886f1446e
 
-PODFILE CHECKSUM: 502d22f9a63e3677a35be7c1e00e76362ea339ce
+PODFILE CHECKSUM: b149579a35e6700910c9c5bc657c06dadc1ed9ed
 
 COCOAPODS: 1.10.1
