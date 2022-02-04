@@ -4,7 +4,7 @@ use_frameworks!
 platform :ios, '9.0'
 
 target 'JBFancy_Example' do
-  pod 'JBFancy', :git => 'https://github.com/saintjab/JBFancy'
+  pod 'JBFancy', :path => '../'
 
   target 'JBFancy_Tests' do
     inherit! :search_paths

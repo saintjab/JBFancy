@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'JBFancy'
-  s.version          = '0.1.0'
+  s.version          = '0.1.1'
   s.summary          = 'A simple and fancy UI Components for blinking and rotating effect'
 
   s.description      = <<-DESC
@@ -23,7 +23,7 @@ Pod::Spec.new do |s|
 
   s.ios.deployment_target = '9.0'
   s.swift_version = '5.0'
-  s.source_files = 'JBFancy/Classes/**/*'
+  s.source_files = 'JBFancy/Classes/*.swift'
   
   # s.resource_bundles = {
   #   'FancyLabel' => ['FancyLabel/Assets/*.png']
